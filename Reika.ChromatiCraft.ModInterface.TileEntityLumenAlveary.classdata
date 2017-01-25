@@ -203,17 +203,17 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	worksWhenBeesDoNot		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
 	tickRate		Annotations: []
 		Modifiers: 100
 		Signature: []
 		Exceptions: []
 		Return: int
+	Synthetic: false
+	worksWhenBeesDoNot		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: boolean
 	Synthetic: false
 
 
@@ -264,17 +264,17 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	worksWhenBeesDoNot		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
 	tickRate		Annotations: []
 		Modifiers: 100
 		Signature: []
 		Exceptions: []
 		Return: int
+	Synthetic: false
+	worksWhenBeesDoNot		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: boolean
 	Synthetic: false
 
 
@@ -441,13 +441,13 @@ Fields:
 
 
 Methods:
-	mutationFactor		Annotations: []
+	decayFactor		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: float
 	Synthetic: false
-	decayFactor		Annotations: []
+	mutationFactor		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
@@ -958,7 +958,7 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	productionFactor		Annotations: []
+	decayFactor		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
@@ -970,23 +970,11 @@ Methods:
 		Exceptions: []
 		Return: float
 	Synthetic: false
-	territoryFactor		Annotations: []
-		Modifiers: 100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
-		Exceptions: []
-		Return: float
-	Synthetic: false
 	isSelfLit		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: boolean
-	Synthetic: false
-	lifespanFactor		Annotations: []
-		Modifiers: 100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
-		Exceptions: []
-		Return: float
 	Synthetic: false
 	isSkySimulated		Annotations: []
 		Modifiers: 100
@@ -994,7 +982,19 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	decayFactor		Annotations: []
+	productionFactor		Annotations: []
+		Modifiers: 100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
+		Exceptions: []
+		Return: float
+	Synthetic: false
+	lifespanFactor		Annotations: []
+		Modifiers: 100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
+		Exceptions: []
+		Return: float
+	Synthetic: false
+	territoryFactor		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
@@ -1018,17 +1018,17 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	consumeEnergy		Annotations: []
-		Modifiers: 10000000100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
-		Exceptions: []
-		Return: void
-	Synthetic: false
 	tick		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: void
+	Synthetic: false
+	tickRate		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: int
 	Synthetic: false
 	worksWhenBeesDoNot		Annotations: []
 		Modifiers: 100
@@ -1042,11 +1042,11 @@ Methods:
 		Exceptions: []
 		Return: float
 	Synthetic: false
-	tickRate		Annotations: []
-		Modifiers: 100
-		Signature: []
+	consumeEnergy		Annotations: []
+		Modifiers: 10000000100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
 		Exceptions: []
-		Return: int
+		Return: void
 	Synthetic: false
 
 
