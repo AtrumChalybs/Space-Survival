@@ -148,17 +148,17 @@ Methods:
 		Exceptions: []
 		Return: class java.lang.String
 	Synthetic: false
-	onProductionTick		Annotations: []
-		Modifiers: 10100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
-		Exceptions: []
-		Return: void
-	Synthetic: false
 	doRepair		Annotations: []
 		Modifiers: 10000000100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: boolean
+	Synthetic: false
+	onProductionTick		Annotations: []
+		Modifiers: 10100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
+		Exceptions: []
+		Return: void
 	Synthetic: false
 
 
@@ -197,11 +197,11 @@ Methods:
 		Exceptions: []
 		Return: class java.lang.String
 	Synthetic: false
-	tickRate		Annotations: []
+	worksWhenBeesDoNot		Annotations: []
 		Modifiers: 100
 		Signature: []
 		Exceptions: []
-		Return: int
+		Return: boolean
 	Synthetic: false
 	tick		Annotations: []
 		Modifiers: 100
@@ -209,11 +209,11 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	worksWhenBeesDoNot		Annotations: []
+	tickRate		Annotations: []
 		Modifiers: 100
 		Signature: []
 		Exceptions: []
-		Return: boolean
+		Return: int
 	Synthetic: false
 
 
@@ -252,11 +252,11 @@ Methods:
 		Exceptions: []
 		Return: class java.lang.String
 	Synthetic: false
-	tickRate		Annotations: []
+	worksWhenBeesDoNot		Annotations: []
 		Modifiers: 100
 		Signature: []
 		Exceptions: []
-		Return: int
+		Return: boolean
 	Synthetic: false
 	tick		Annotations: []
 		Modifiers: 100
@@ -264,17 +264,17 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	worksWhenBeesDoNot		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
 	isHellish		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: boolean
+	Synthetic: false
+	tickRate		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: int
 	Synthetic: false
 
 
@@ -830,17 +830,17 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	consumeOnTick		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
 	consumeEnergy		Annotations: []
 		Modifiers: 10100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
 		Exceptions: []
 		Return: void
+	Synthetic: false
+	consumeOnTick		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: boolean
 	Synthetic: false
 
 
@@ -908,17 +908,17 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	consumeOnTick		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
 	consumeEnergy		Annotations: []
 		Modifiers: 10100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
 		Exceptions: []
 		Return: void
+	Synthetic: false
+	consumeOnTick		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: boolean
 	Synthetic: false
 
 
@@ -952,19 +952,37 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	getDescription		Annotations: []
-		Modifiers: 10000000001
-		Signature: []
-		Exceptions: []
-		Return: class java.lang.String
-	Synthetic: false
 	isActive		Annotations: []
 		Modifiers: 10000000100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	onProductionTick		Annotations: []
+	getDescription		Annotations: []
+		Modifiers: 10000000001
+		Signature: []
+		Exceptions: []
+		Return: class java.lang.String
+	Synthetic: false
+	pollinationFactor		Annotations: []
+		Modifiers: 100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
+		Exceptions: []
+		Return: float
+	Synthetic: false
+	worksWhenBeesDoNot		Annotations: []
+		Modifiers: 100
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	consumeEnergy		Annotations: []
+		Modifiers: 10000000100
+		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
+		Exceptions: []
+		Return: void
+	Synthetic: false
+	tick		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
@@ -1012,29 +1030,11 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	tickRate		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: int
-	Synthetic: false
-	tick		Annotations: []
+	onProductionTick		Annotations: []
 		Modifiers: 100
 		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
 		Exceptions: []
 		Return: void
-	Synthetic: false
-	worksWhenBeesDoNot		Annotations: []
-		Modifiers: 100
-		Signature: []
-		Exceptions: []
-		Return: boolean
-	Synthetic: false
-	pollinationFactor		Annotations: []
-		Modifiers: 100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary]
-		Exceptions: []
-		Return: float
 	Synthetic: false
 	isHellish		Annotations: []
 		Modifiers: 100
@@ -1042,11 +1042,11 @@ Methods:
 		Exceptions: []
 		Return: boolean
 	Synthetic: false
-	consumeEnergy		Annotations: []
-		Modifiers: 10000000100
-		Signature: [class Reika.ChromatiCraft.ModInterface.TileEntityLumenAlveary, int]
+	tickRate		Annotations: []
+		Modifiers: 100
+		Signature: []
 		Exceptions: []
-		Return: void
+		Return: int
 	Synthetic: false
 
 
