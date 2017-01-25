@@ -109,17 +109,17 @@ Methods:
 		Exceptions: []
 		Return: void
 	Synthetic: false
-	getListenerList		Annotations: []
-		Modifiers: 1
-		Signature: []
-		Exceptions: []
-		Return: class cpw.mods.fml.common.eventhandler.ListenerList
-	Synthetic: false
 	isCancelable		Annotations: []
 		Modifiers: 1
 		Signature: []
 		Exceptions: []
 		Return: boolean
+	Synthetic: false
+	getListenerList		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: class cpw.mods.fml.common.eventhandler.ListenerList
 	Synthetic: false
 
 
