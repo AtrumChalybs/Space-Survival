@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "JourneyMap Color Palette",
-  "generated": "Generated using JourneyMap 5.1.4p2 Unlimited for 1.7.10 on Tue Jan 24 23:09:28 EST 2017",
+  "generated": "Generated using JourneyMap 5.1.4p2 Unlimited for 1.7.10 on Tue Jan 24 23:21:19 EST 2017",
   "description": [
     "This file can be used to keep map colors consistent when changing resource packs.",
     "Edit at your own risk. You can view it using the colorpalette.html file.",
@@ -11,7 +11,7 @@ var colorpalette={
   ],
   "permanent": false,
   "resourcePacks": "Default",
-  "modNames": "Advanced Genetics:1.5.9, Applied Energistics 2:rv2-stable-10, AppliedEnergistics2 Core:rv2-stable-10, Carpenter\u0027s Blocks:3.3.8, Chisel:2.9.5.11, ChromatiCraft:1.0, CodeChicken Core:1.0.7.47, Computronics:1.6.1, DeepResonance:1.1.4, DragonAPI ASM Data Initialization:0, DragonAPI:1.0, ElecCore:1.4.294, ElectriCraft:1.0, Forge Microblocks:1.1.2.331, Forge Mod Loader:7.10.99.99, Forge Multipart:1.1.2.331, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, IndustrialCraft 2:2.2.827-experimental, Inventory Tweaks:1.59-dev-152-cf6e263, JABBA:1.2.2, JourneyMap:5.1.4p2, Matter Overdrive:0.4.0-RC4, Mekanism:9.1.0, MekanismGenerators:9.1.0, MekanismTools:9.1.0, Micdoodle8 Core:, Minechem:5.0.5.406, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Minecraft Multipart Plugin:1.1.2.331, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, Not Enough Items:1.0.5.120, OpenBlocks:1.5.1, OpenComputers (Core):1.6.1.11, OpenComputers:1.6.1.11, OpenMods:0.9.1, OpenModsCore:0.9.1, OpenPeripheralAddons:0.5.1, OpenPeripheralCore:1.3, OpenPeripheralIntegration:0.5, OpenPrinter:0.1.0.132, OpenSecurity:1.0.97, PneumaticCraft:1.12.7-150, ReactorCraft:1.0, RotaryCraft:1.0, Storage Drawers:1.7.10-1.10.8, Waila Harvestability:1.1.5, Waila:1.5.10, What Are We Looking At:1.3.1, asielib:0.4.6",
+  "modNames": "Advanced Genetics:1.5.9, Applied Energistics 2:rv2-stable-10, AppliedEnergistics2 Core:rv2-stable-10, Carpenter\u0027s Blocks:3.3.8, Chisel:2.9.5.11, ChromatiCraft:1.0, CodeChicken Core:1.0.7.47, Computronics:1.6.1, DeepResonance:1.1.4, DragonAPI ASM Data Initialization:0, DragonAPI:1.0, ElecCore:1.4.294, ElectriCraft:1.0, Forge Microblocks:1.2.0.345, Forge Mod Loader:7.10.99.99, Forge Multipart:1.2.0.345, Galacticraft Core:3.0.12, Galacticraft Planets:3.0.12, Gravestone:0.7.10.2, Hardcore Questing Mode:4.4.4, IndustrialCraft 2:2.2.827-experimental, Inventory Tweaks:1.59-dev-152-cf6e263, JABBA:1.2.2, JourneyMap:5.1.4p2, Magneticraft:0.6.0-final, Matter Overdrive:0.4.0-RC4, Mekanism:9.1.0, MekanismGenerators:9.1.0, MekanismTools:9.1.0, Micdoodle8 Core:, Minechem:5.0.5.406, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, Minecraft Multipart Plugin:1.2.0.345, MrTJPCore:1.1.0.33, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, Not Enough Items:1.0.5.120, OpenBlocks:1.5.1, OpenComputers (Core):1.6.1.11, OpenComputers:1.6.1.11, OpenMods:0.9.1, OpenModsCore:0.9.1, OpenPeripheralAddons:0.5.1, OpenPeripheralCore:1.3, OpenPeripheralIntegration:0.5, OpenPrinter:0.1.0.132, OpenSecurity:1.0.97, PneumaticCraft:1.12.7-150, ProjectRed Core:4.7.0pre12.95, ProjectRed Fabrication:4.7.0pre12.95, ProjectRed Integration:4.7.0pre12.95, ProjectRed Transmission:4.7.0pre12.95, ReactorCraft:1.0, RotaryCraft:1.0, Storage Drawers:1.7.10-1.10.8, Waila Harvestability:1.1.5, Waila:1.5.10, What Are We Looking At:1.3.1, asielib:0.4.6",
   "basicColors": [
     {
       "name": "(TECHNICAL BLOCK) BlockAdvGear:0",
@@ -460,6 +460,13 @@ var colorpalette={
       "color": "#78976d"
     },
     {
+      "name": "Air Bubble",
+      "uid": "Magneticraft:tile.air_bubble",
+      "meta": 0,
+      "color": "#ffffff",
+      "alpha": 0.4
+    },
+    {
       "name": "Air Cannon",
       "uid": "PneumaticCraft:airCannon",
       "meta": 0,
@@ -488,6 +495,12 @@ var colorpalette={
       "uid": "GalacticraftCore:tile.airLockSeal",
       "meta": 0,
       "color": "#9e9e9d"
+    },
+    {
+      "name": "Airlock",
+      "uid": "Magneticraft:airlock",
+      "meta": 0,
+      "color": "#565f63"
     },
     {
       "name": "Alanine",
@@ -1041,6 +1054,12 @@ var colorpalette={
       "color": "#656565"
     },
     {
+      "name": "Basic Generator",
+      "uid": "Magneticraft:basic_generator",
+      "meta": 0,
+      "color": "#504f4f"
+    },
+    {
       "name": "Basic Induction Cell",
       "uid": "Mekanism:BasicBlock2",
       "meta": 3,
@@ -1166,6 +1185,12 @@ var colorpalette={
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "Battery",
+      "uid": "Magneticraft:battery",
+      "meta": 0,
+      "color": "#524f4e"
     },
     {
       "name": "Beacon",
@@ -1368,6 +1393,12 @@ var colorpalette={
       "meta": 0,
       "color": "#366e24",
       "alpha": 0.3
+    },
+    {
+      "name": "Biomass Burner",
+      "uid": "Magneticraft:biomassburner",
+      "meta": 0,
+      "color": "#504f4f"
     },
     {
       "name": "Biometric Reader",
@@ -1584,6 +1615,12 @@ var colorpalette={
       "meta": 0,
       "color": "#0e001c",
       "alpha": 0.4
+    },
+    {
+      "name": "Block Breaker",
+      "uid": "Magneticraft:block_breaker",
+      "meta": 0,
+      "color": "#d2d2d2"
     },
     {
       "name": "Block Breaker",
@@ -2101,6 +2138,12 @@ var colorpalette={
       "alpha": 0.47058824
     },
     {
+      "name": "Boiler",
+      "uid": "Magneticraft:boiler",
+      "meta": 0,
+      "color": "#959595"
+    },
+    {
       "name": "Boiler Casing",
       "uid": "Mekanism:BasicBlock2",
       "meta": 7,
@@ -2192,6 +2235,12 @@ var colorpalette={
       "color": "#4c595d"
     },
     {
+      "name": "Brass Block",
+      "uid": "Magneticraft:block_brass",
+      "meta": 0,
+      "color": "#b49857"
+    },
+    {
       "name": "Brick Block",
       "uid": "chisel:brickCustom",
       "meta": 1,
@@ -2220,6 +2269,12 @@ var colorpalette={
       "uid": "chisel:brickCustom",
       "meta": 6,
       "color": "#978562"
+    },
+    {
+      "name": "Brick Furnace",
+      "uid": "Magneticraft:brickFurnace",
+      "meta": 0,
+      "color": "#8a685d"
     },
     {
       "name": "Brick Stairs",
@@ -2308,6 +2363,78 @@ var colorpalette={
       "meta": 0,
       "color": "#cccccc",
       "alpha": 0.58431375
+    },
+    {
+      "name": "Burnt Limestone",
+      "uid": "Magneticraft:burnt_limestone",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Brick Slab",
+      "uid": "Magneticraft:tile.burnt_brick_limestoneSlab",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Brick Slab",
+      "uid": "Magneticraft:tile.burnt_brick_limestoneSlabFull",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Brick Stairs",
+      "uid": "Magneticraft:tile.burnt_brick_limestoneStairs",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Bricks",
+      "uid": "Magneticraft:burnt_brick_limestone",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Cobble",
+      "uid": "Magneticraft:burnt_cobble_limestone",
+      "meta": 0,
+      "color": "#575b57"
+    },
+    {
+      "name": "Burnt Limestone Cobble Slab",
+      "uid": "Magneticraft:tile.burnt_cobble_limestoneSlab",
+      "meta": 0,
+      "color": "#575b57"
+    },
+    {
+      "name": "Burnt Limestone Cobble Slab",
+      "uid": "Magneticraft:tile.burnt_cobble_limestoneSlabFull",
+      "meta": 0,
+      "color": "#575b57"
+    },
+    {
+      "name": "Burnt Limestone Cobble Stairs",
+      "uid": "Magneticraft:tile.burnt_cobble_limestoneStairs",
+      "meta": 0,
+      "color": "#575b57"
+    },
+    {
+      "name": "Burnt Limestone Slab",
+      "uid": "Magneticraft:tile.burnt_limestoneSlab",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Slab",
+      "uid": "Magneticraft:tile.burnt_limestoneSlabFull",
+      "meta": 0,
+      "color": "#5c625c"
+    },
+    {
+      "name": "Burnt Limestone Stairs",
+      "uid": "Magneticraft:tile.burnt_limestoneStairs",
+      "meta": 0,
+      "color": "#5c625c"
     },
     {
       "name": "Burst Emitter",
@@ -2424,6 +2551,12 @@ var colorpalette={
       "uid": "OpenComputers:capacitor",
       "meta": 0,
       "color": "#3e803e"
+    },
+    {
+      "name": "Carbide Block",
+      "uid": "Magneticraft:block_carbide",
+      "meta": 0,
+      "color": "#3c3c3c"
     },
     {
       "name": "Carbon",
@@ -2953,6 +3086,30 @@ var colorpalette={
       "color": "#9ea4b0"
     },
     {
+      "name": "Clay Roof Tile Slab",
+      "uid": "Magneticraft:tile.roofTileSlab",
+      "meta": 0,
+      "color": "#73554a"
+    },
+    {
+      "name": "Clay Roof Tile Slab",
+      "uid": "Magneticraft:tile.roofTileSlabFull",
+      "meta": 0,
+      "color": "#73554a"
+    },
+    {
+      "name": "Clay Roof Tile Stairs",
+      "uid": "Magneticraft:tile.roofTileStairs",
+      "meta": 0,
+      "color": "#73554a"
+    },
+    {
+      "name": "Clay Roof Tiles",
+      "uid": "Magneticraft:roofTile",
+      "meta": 0,
+      "color": "#73554a"
+    },
+    {
       "name": "Cloud",
       "uid": "chisel:cloud",
       "meta": 0,
@@ -3311,6 +3468,12 @@ var colorpalette={
     },
     {
       "name": "Concrete",
+      "uid": "Magneticraft:concreted_pipe",
+      "meta": 0,
+      "color": "#7b7b7b"
+    },
+    {
+      "name": "Concrete",
       "uid": "ReactorCraft:reactorcraft_block_mats",
       "meta": 0,
       "color": "#d2c9c0"
@@ -3407,6 +3570,18 @@ var colorpalette={
       "color": "#c5c5da"
     },
     {
+      "name": "Conveyor Belt",
+      "uid": "Magneticraft:conveyor_low",
+      "meta": 0,
+      "color": "#3e3b2b"
+    },
+    {
+      "name": "Cooler",
+      "uid": "Magneticraft:cooler",
+      "meta": 0,
+      "color": "#757575"
+    },
+    {
       "name": "Copernicium",
       "uid": "minechem:fluid.element.Cn.name",
       "meta": 0,
@@ -3431,6 +3606,12 @@ var colorpalette={
       "uid": "IC2:blockMetal",
       "meta": 0,
       "color": "#8e4d1a"
+    },
+    {
+      "name": "Copper Block",
+      "uid": "Magneticraft:block_copper",
+      "meta": 0,
+      "color": "#a06e51"
     },
     {
       "name": "Copper Block",
@@ -3482,6 +3663,12 @@ var colorpalette={
     },
     {
       "name": "Copper Ore",
+      "uid": "Magneticraft:copper_ore",
+      "meta": 0,
+      "color": "#807976"
+    },
+    {
+      "name": "Copper Ore",
       "uid": "Mekanism:OreBlock",
       "meta": 1,
       "color": "#847b77"
@@ -3498,6 +3685,12 @@ var colorpalette={
       "uid": "minecraft:stonebrick",
       "meta": 2,
       "color": "#767676"
+    },
+    {
+      "name": "Crafter",
+      "uid": "Magneticraft:crafter",
+      "meta": 0,
+      "color": "#9c9c9c"
     },
     {
       "name": "Crafting Co-Processing Unit",
@@ -3542,6 +3735,18 @@ var colorpalette={
       "color": "#000000"
     },
     {
+      "name": "Creative Infinite Energy",
+      "uid": "Magneticraft:infinite_energy",
+      "meta": 0,
+      "color": "#5e5c4a"
+    },
+    {
+      "name": "Creative Infinite Steam",
+      "uid": "Magneticraft:infinite_steam",
+      "meta": 0,
+      "color": "#5f5e5e"
+    },
+    {
       "name": "Creeper Egg",
       "uid": "GalacticraftMars:tile.creeperEgg",
       "meta": 0,
@@ -3567,10 +3772,23 @@ var colorpalette={
       "alpha": 0.95686275
     },
     {
+      "name": "Crude Oil",
+      "uid": "Magneticraft:blockoil",
+      "meta": 0,
+      "color": "#0b0b0b",
+      "alpha": 0.3
+    },
+    {
       "name": "Crusher",
       "uid": "Mekanism:MachineBlock",
       "meta": 3,
       "color": "#585858"
+    },
+    {
+      "name": "Crusher Control",
+      "uid": "Magneticraft:crusher_control",
+      "meta": 0,
+      "color": "#494949"
     },
     {
       "name": "Cryogenic Chamber",
@@ -4347,6 +4565,12 @@ var colorpalette={
       "color": "#0c090f"
     },
     {
+      "name": "Drained Oil Source",
+      "uid": "Magneticraft:oil_source_drained",
+      "meta": 0,
+      "color": "#535353"
+    },
+    {
       "name": "Drawer Controller",
       "uid": "StorageDrawers:controller",
       "meta": 0,
@@ -4530,6 +4754,12 @@ var colorpalette={
       "color": "#bdc3c5"
     },
     {
+      "name": "Electric Furnace",
+      "uid": "Magneticraft:electricfurnace",
+      "meta": 0,
+      "color": "#504f4f"
+    },
+    {
       "name": "Electric Heat Generator",
       "uid": "IC2:blockHeatGenerator",
       "meta": 3,
@@ -4546,6 +4776,12 @@ var colorpalette={
       "uid": "Mekanism:MachineBlock",
       "meta": 12,
       "color": "#656565"
+    },
+    {
+      "name": "Electric Switch",
+      "uid": "Magneticraft:electric_switch",
+      "meta": 0,
+      "color": "#494644"
     },
     {
       "name": "Electrolytic Separator",
@@ -5274,6 +5510,12 @@ var colorpalette={
       "color": "#d18629"
     },
     {
+      "name": "Firebox",
+      "uid": "Magneticraft:firebox",
+      "meta": 0,
+      "color": "#955b41"
+    },
+    {
       "name": "Flag",
       "uid": "OpenBlocks:flag",
       "meta": 0,
@@ -5386,6 +5628,12 @@ var colorpalette={
       "uid": "IC2:blockHeatGenerator",
       "meta": 1,
       "color": "#bdc3c5"
+    },
+    {
+      "name": "Fluid Tank",
+      "uid": "Magneticraft:mg_tank",
+      "meta": 0,
+      "color": "#cba589"
     },
     {
       "name": "Fluidic Plenisher",
@@ -5798,6 +6046,12 @@ var colorpalette={
       "uid": "OpenComputers:geolyzer",
       "meta": 0,
       "color": "#1c1c1c"
+    },
+    {
+      "name": "Geothermal Pump",
+      "uid": "Magneticraft:geothermal_pump",
+      "meta": 0,
+      "color": "#5b5b5b"
     },
     {
       "name": "Germanium",
@@ -6476,6 +6730,12 @@ var colorpalette={
       "color": "#434542"
     },
     {
+      "name": "Grinder Control",
+      "uid": "Magneticraft:grinder_control",
+      "meta": 0,
+      "color": "#494949"
+    },
+    {
       "name": "Guaiazulene",
       "uid": "minechem:fluid.molecule.blueorgodye.name",
       "meta": 0,
@@ -6533,10 +6793,22 @@ var colorpalette={
       "color": "#ff9f00"
     },
     {
+      "name": "Heat Resistance",
+      "uid": "Magneticraft:heat_resistance",
+      "meta": 0,
+      "color": "#a6a6a6"
+    },
+    {
       "name": "Heat Sink",
       "uid": "PneumaticCraft:heatSink",
       "meta": 0,
       "color": "#818181"
+    },
+    {
+      "name": "Heater",
+      "uid": "Magneticraft:heater",
+      "meta": 0,
+      "color": "#504f4f"
     },
     {
       "name": "Heavy Aluminum Wire",
@@ -6549,6 +6821,13 @@ var colorpalette={
       "uid": "mo:heavy_matter_pipe",
       "meta": 0,
       "color": "#4b4d31"
+    },
+    {
+      "name": "Heavy Oil",
+      "uid": "Magneticraft:blockheavyoil",
+      "meta": 0,
+      "color": "#cf9d0b",
+      "alpha": 0.3
     },
     {
       "name": "Height Map Projector",
@@ -6788,6 +7067,13 @@ var colorpalette={
       "color": "#454545"
     },
     {
+      "name": "Hot Crude",
+      "uid": "Magneticraft:blockhotcrude",
+      "meta": 0,
+      "color": "#242424",
+      "alpha": 0.3
+    },
+    {
       "name": "Hotspring Water",
       "uid": "IC2:fluidHotWater",
       "meta": 0,
@@ -6911,6 +7197,18 @@ var colorpalette={
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "IC Printer",
+      "uid": "ProjRed|Fabrication:projectred.integration.icblock",
+      "meta": 1,
+      "color": "#323131"
+    },
+    {
+      "name": "IC Workbench",
+      "uid": "ProjRed|Fabrication:projectred.integration.icblock",
+      "meta": 0,
+      "color": "#28416a"
     },
     {
       "name": "IC2 Coolant",
@@ -7258,13 +7556,19 @@ var colorpalette={
       "name": "Industrial Technical Block",
       "uid": "chisel:technical3",
       "meta": 0,
-      "color": "#020512"
+      "color": "#03081c"
     },
     {
       "name": "Industrial Technical Block",
       "uid": "chisel:technical3",
       "meta": 1,
       "color": "#000000"
+    },
+    {
+      "name": "Infinite Water",
+      "uid": "Magneticraft:InfiniteWater",
+      "meta": 0,
+      "color": "#404d5b"
     },
     {
       "name": "Infusing Laser",
@@ -8076,97 +8380,97 @@ var colorpalette={
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 0,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 1,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 2,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 3,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 4,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 5,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 6,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 7,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 8,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 9,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 10,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 11,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 12,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 13,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 14,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Large Hex Plating",
       "uid": "chisel:hexLargePlating",
       "meta": 15,
-      "color": "#020410"
+      "color": "#03071a"
     },
     {
       "name": "Laser",
@@ -8443,6 +8747,13 @@ var colorpalette={
       "color": "#9aa1a1"
     },
     {
+      "name": "Light Oil",
+      "uid": "Magneticraft:blocklightoil",
+      "meta": 0,
+      "color": "#e0bf14",
+      "alpha": 0.3
+    },
+    {
       "name": "Lighted Leaf",
       "uid": "ChromatiCraft:chromaticraft_block_glowleaf",
       "meta": 0,
@@ -8524,6 +8835,12 @@ var colorpalette={
     },
     {
       "name": "Limestone",
+      "uid": "Magneticraft:limestone",
+      "meta": 0,
+      "color": "#abb5ab"
+    },
+    {
+      "name": "Limestone",
       "uid": "chisel:limestone",
       "meta": 0,
       "color": "#8d8c78"
@@ -8619,6 +8936,66 @@ var colorpalette={
       "color": "#716b5b"
     },
     {
+      "name": "Limestone Brick Slab",
+      "uid": "Magneticraft:tile.brick_limestoneSlab",
+      "meta": 0,
+      "color": "#a9b2a9"
+    },
+    {
+      "name": "Limestone Brick Slab",
+      "uid": "Magneticraft:tile.brick_limestoneSlabFull",
+      "meta": 0,
+      "color": "#a9b2a9"
+    },
+    {
+      "name": "Limestone Brick Stairs",
+      "uid": "Magneticraft:tile.brick_limestoneStairs",
+      "meta": 0,
+      "color": "#a9b2a9"
+    },
+    {
+      "name": "Limestone Bricks",
+      "uid": "Magneticraft:brick_limestone",
+      "meta": 0,
+      "color": "#a9b2a9"
+    },
+    {
+      "name": "Limestone Cobble",
+      "uid": "Magneticraft:cobble_limestone",
+      "meta": 0,
+      "color": "#a4aca3"
+    },
+    {
+      "name": "Limestone Cobble Slab",
+      "uid": "Magneticraft:tile.cobble_limestoneSlab",
+      "meta": 0,
+      "color": "#a4aca3"
+    },
+    {
+      "name": "Limestone Cobble Slab",
+      "uid": "Magneticraft:tile.cobble_limestoneSlabFull",
+      "meta": 0,
+      "color": "#a4aca3"
+    },
+    {
+      "name": "Limestone Cobble Stairs",
+      "uid": "Magneticraft:tile.cobble_limestoneStairs",
+      "meta": 0,
+      "color": "#a4aca3"
+    },
+    {
+      "name": "Limestone Slab",
+      "uid": "Magneticraft:tile.limestoneSlab",
+      "meta": 0,
+      "color": "#abb5ab"
+    },
+    {
+      "name": "Limestone Slab",
+      "uid": "Magneticraft:tile.limestoneSlabFull",
+      "meta": 0,
+      "color": "#abb5ab"
+    },
+    {
       "name": "Limestone Slab",
       "uid": "chisel:limestone_slab",
       "meta": 0,
@@ -8713,6 +9090,12 @@ var colorpalette={
       "uid": "chisel:limestone_slab",
       "meta": 15,
       "color": "#716b5b"
+    },
+    {
+      "name": "Limestone Stairs",
+      "uid": "Magneticraft:tile.limestoneStairs",
+      "meta": 0,
+      "color": "#abb5ab"
     },
     {
       "name": "Limestone Stairs",
@@ -8809,6 +9192,30 @@ var colorpalette={
       "uid": "chisel:limestone_stairs.7",
       "meta": 8,
       "color": "#716b5b"
+    },
+    {
+      "name": "Limestone Tile Slab",
+      "uid": "Magneticraft:tile.tile_limestoneSlab",
+      "meta": 0,
+      "color": "#838b83"
+    },
+    {
+      "name": "Limestone Tile Slab",
+      "uid": "Magneticraft:tile.tile_limestoneSlabFull",
+      "meta": 0,
+      "color": "#838b83"
+    },
+    {
+      "name": "Limestone Tile Stairs",
+      "uid": "Magneticraft:tile.tile_limestoneStairs",
+      "meta": 0,
+      "color": "#838b83"
+    },
+    {
+      "name": "Limestone Tiles",
+      "uid": "Magneticraft:tile_limestone",
+      "meta": 0,
+      "color": "#838b83"
     },
     {
       "name": "Linoleum Floor",
@@ -9009,6 +9416,12 @@ var colorpalette={
       "uid": "deepresonance:machineFrame",
       "meta": 0,
       "color": "#656669"
+    },
+    {
+      "name": "Machine Housing",
+      "uid": "Magneticraft:machine_housing",
+      "meta": 0,
+      "color": "#504f4f"
     },
     {
       "name": "Machine Hull",
@@ -9885,6 +10298,12 @@ var colorpalette={
       "color": "#bdc3c5"
     },
     {
+      "name": "Miner",
+      "uid": "Magneticraft:miner",
+      "meta": 0,
+      "color": "#504f4f"
+    },
+    {
       "name": "Mining Pipe",
       "uid": "IC2:blockMiningPipe",
       "meta": 0,
@@ -9895,6 +10314,12 @@ var colorpalette={
       "uid": "RotaryCraft:rotarycraft_block_miningpipe",
       "meta": 0,
       "color": "#292929"
+    },
+    {
+      "name": "Mirror",
+      "uid": "Magneticraft:mirror",
+      "meta": 0,
+      "color": "#d1d1d1"
     },
     {
       "name": "Molecular Assembler",
@@ -10192,6 +10617,54 @@ var colorpalette={
       "color": "#4b6d6f"
     },
     {
+      "name": "Multiblock Chassis",
+      "uid": "Magneticraft:chasis",
+      "meta": 0,
+      "color": "#494949"
+    },
+    {
+      "name": "Multiblock Component",
+      "uid": "Magneticraft:refinery_gap",
+      "meta": 0,
+      "color": "#9b9b9b"
+    },
+    {
+      "name": "Multiblock Controls",
+      "uid": "Magneticraft:mb_controls",
+      "meta": 0,
+      "color": "#423c3a"
+    },
+    {
+      "name": "Multiblock Energy I/O (Low Voltage)",
+      "uid": "Magneticraft:MB_EnergyIO",
+      "meta": 0,
+      "color": "#4c4a49"
+    },
+    {
+      "name": "Multiblock Energy I/O (Medium Voltage)",
+      "uid": "Magneticraft:MB_Energy_medium",
+      "meta": 0,
+      "color": "#454342"
+    },
+    {
+      "name": "Multiblock Heat I/O",
+      "uid": "Magneticraft:multi_heat",
+      "meta": 0,
+      "color": "#494240"
+    },
+    {
+      "name": "Multiblock I/O",
+      "uid": "Magneticraft:multi_io",
+      "meta": 0,
+      "color": "#494848"
+    },
+    {
+      "name": "Multiblock Kinetic I/O",
+      "uid": "Magneticraft:mb_kinetic",
+      "meta": 0,
+      "color": "#393327"
+    },
+    {
       "name": "Mushroom",
       "uid": "minecraft:brown_mushroom",
       "meta": 0,
@@ -10226,6 +10699,13 @@ var colorpalette={
       "uid": "GalacticraftCore:tile.rocketWorkbench",
       "meta": 0,
       "color": "#56372a"
+    },
+    {
+      "name": "Natural Gas",
+      "uid": "Magneticraft:blocknaturalgas",
+      "meta": 0,
+      "color": "#5d8b2c",
+      "alpha": 0.3
     },
     {
       "name": "Neodymium",
@@ -10817,6 +11297,18 @@ var colorpalette={
       "meta": 0,
       "color": "#232323",
       "alpha": 0.3
+    },
+    {
+      "name": "Oil Distillery Control",
+      "uid": "Magneticraft:distillery_control",
+      "meta": 0,
+      "color": "#494949"
+    },
+    {
+      "name": "Oil Source",
+      "uid": "Magneticraft:oil_source",
+      "meta": 0,
+      "color": "#4b4b4b"
     },
     {
       "name": "Oleic Acid",
@@ -11479,6 +11971,12 @@ var colorpalette={
       "alpha": 0.47058824
     },
     {
+      "name": "Permanent Magnet",
+      "uid": "Magneticraft:permanent_magnet",
+      "meta": 0,
+      "color": "#333333"
+    },
+    {
       "name": "Peroxide (ion)",
       "uid": "minechem:fluid.molecule.peroxide.name",
       "meta": 0,
@@ -11645,6 +12143,12 @@ var colorpalette={
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "Polymerizer Control",
+      "uid": "Magneticraft:polimerizer_control",
+      "meta": 0,
+      "color": "#494949"
     },
     {
       "name": "Polyvinyl Chloride",
@@ -12322,6 +12826,24 @@ var colorpalette={
       "color": "#ece9e2"
     },
     {
+      "name": "Quest Delivery System",
+      "uid": "HardcoreQuesting:item_barrel",
+      "meta": 0,
+      "color": "#7f5006"
+    },
+    {
+      "name": "Quest Gate System",
+      "uid": "HardcoreQuesting:quest_portal",
+      "meta": 0,
+      "color": "#7f5006"
+    },
+    {
+      "name": "Quest Tracking System",
+      "uid": "HardcoreQuesting:quest_tracker",
+      "meta": 0,
+      "color": "#7f5006"
+    },
+    {
       "name": "RFCable",
       "uid": "ElectriCraft:electricraft_block_cable",
       "meta": 0,
@@ -12755,6 +13277,18 @@ var colorpalette={
       "color": "#818181"
     },
     {
+      "name": "Refinery Control",
+      "uid": "Magneticraft:refinery_control",
+      "meta": 0,
+      "color": "#494949"
+    },
+    {
+      "name": "Refinery Tank",
+      "uid": "Magneticraft:refinery_tank",
+      "meta": 0,
+      "color": "#838383"
+    },
+    {
       "name": "Reinforced Construction Foam",
       "uid": "IC2:blockReinforcedFoam",
       "meta": 0,
@@ -13074,9 +13608,21 @@ var colorpalette={
     },
     {
       "name": "Salt Block",
+      "uid": "Magneticraft:block_salt",
+      "meta": 0,
+      "color": "#cccccc"
+    },
+    {
+      "name": "Salt Block",
       "uid": "Mekanism:SaltBlock",
       "meta": 0,
       "color": "#dfe4d1"
+    },
+    {
+      "name": "Salt Ore",
+      "uid": "Magneticraft:salt_ore",
+      "meta": 0,
+      "color": "#888987"
     },
     {
       "name": "Samarium",
@@ -13493,6 +14039,12 @@ var colorpalette={
       "color": "#787878"
     },
     {
+      "name": "Sifter Control",
+      "uid": "Magneticraft:sifter_control",
+      "meta": 0,
+      "color": "#494949"
+    },
+    {
       "name": "Sign",
       "uid": "minecraft:standing_sign",
       "meta": 0,
@@ -13691,9 +14243,21 @@ var colorpalette={
     },
     {
       "name": "Solar Panel",
+      "uid": "Magneticraft:solarpanel",
+      "meta": 0,
+      "color": "#13173d"
+    },
+    {
+      "name": "Solar Panel",
       "uid": "mo:solar_panel",
       "meta": 0,
       "color": "#31495b"
+    },
+    {
+      "name": "Solar Tower Core",
+      "uid": "Magneticraft:solar_tower_core",
+      "meta": 0,
+      "color": "#3c3c3c"
     },
     {
       "name": "Solid Heat Generator",
@@ -15179,6 +15743,13 @@ var colorpalette={
     },
     {
       "name": "Steam",
+      "uid": "Magneticraft:blocksteam",
+      "meta": 0,
+      "color": "#8c8c8c",
+      "alpha": 0.3
+    },
+    {
+      "name": "Steam",
       "uid": "ReactorCraft:reactorcraft_block_steam",
       "meta": 0,
       "color": "#e1e1e1"
@@ -15254,6 +15825,12 @@ var colorpalette={
       "uid": "minecraft:sticky_piston",
       "meta": 0,
       "color": "#606060"
+    },
+    {
+      "name": "Stirling Generator Control",
+      "uid": "Magneticraft:stirling_generator",
+      "meta": 0,
+      "color": "#504f4f"
     },
     {
       "name": "Stirling Kinetic Generator",
@@ -15501,11 +16078,23 @@ var colorpalette={
       "alpha": 0.47058824
     },
     {
+      "name": "Sulfur Block",
+      "uid": "Magneticraft:block_sulfur",
+      "meta": 0,
+      "color": "#bdbf92"
+    },
+    {
       "name": "Sulfur Dioxide",
       "uid": "minechem:fluid.molecule.sulfurDioxide.name",
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "Sulfur Ore",
+      "uid": "Magneticraft:sulfur_ore",
+      "meta": 0,
+      "color": "#8f8c6b"
     },
     {
       "name": "Sulfuric Acid",
@@ -15603,6 +16192,12 @@ var colorpalette={
       "uid": "computronics:computronics.tapeReader",
       "meta": 0,
       "color": "#858585"
+    },
+    {
+      "name": "Tar",
+      "uid": "Magneticraft:tar",
+      "meta": 0,
+      "color": "#090909"
     },
     {
       "name": "Target",
@@ -16022,6 +16617,12 @@ var colorpalette={
       "color": "#83503c"
     },
     {
+      "name": "Thermopile",
+      "uid": "Magneticraft:thermopile",
+      "meta": 0,
+      "color": "#524f4e"
+    },
+    {
       "name": "Thermopneumatic Processing Plant",
       "uid": "PneumaticCraft:thermopneumaticProcessingPlant",
       "meta": 0,
@@ -16039,6 +16640,12 @@ var colorpalette={
       "uid": "ReactorCraft:reactorcraft_block_thorium",
       "meta": 7,
       "color": "#b3d6cf"
+    },
+    {
+      "name": "Thorium Ore",
+      "uid": "Magneticraft:thorium_ore",
+      "meta": 0,
+      "color": "#767472"
     },
     {
       "name": "Threonine",
@@ -16573,6 +17180,18 @@ var colorpalette={
       "alpha": 0.47058824
     },
     {
+      "name": "Tungsten Block",
+      "uid": "Magneticraft:block_tungsten",
+      "meta": 0,
+      "color": "#2a2a2a"
+    },
+    {
+      "name": "Tungsten Ore",
+      "uid": "Magneticraft:tungsten_ore",
+      "meta": 0,
+      "color": "#767676"
+    },
+    {
       "name": "Tungsten Plating",
       "uid": "minechem:tile.fusionWall",
       "meta": 1,
@@ -16589,6 +17208,12 @@ var colorpalette={
       "uid": "MekanismGenerators:Generator",
       "meta": 10,
       "color": "#6b747c"
+    },
+    {
+      "name": "Turbine Control",
+      "uid": "Magneticraft:turbine_control",
+      "meta": 0,
+      "color": "#504f4f"
     },
     {
       "name": "Turbine Flywheel Core",
@@ -16776,6 +17401,12 @@ var colorpalette={
     },
     {
       "name": "Uranium Ore",
+      "uid": "Magneticraft:uranium_ore",
+      "meta": 0,
+      "color": "#798077"
+    },
+    {
+      "name": "Uranium Ore",
       "uid": "minechem:tile.oreUranium",
       "meta": 0,
       "color": "#7d867d"
@@ -16910,6 +17541,12 @@ var colorpalette={
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "Void Inventory",
+      "uid": "Magneticraft:void_inventory",
+      "meta": 0,
+      "color": "#3b352a"
     },
     {
       "name": "VoidRift",
@@ -17228,6 +17865,12 @@ var colorpalette={
       "color": "#656565"
     },
     {
+      "name": "Wind Turbine",
+      "uid": "Magneticraft:windturbine",
+      "meta": 0,
+      "color": "#504f4f"
+    },
+    {
       "name": "Wire",
       "uid": "ElectriCraft:electricraft_block_wire",
       "meta": 0,
@@ -17446,11 +18089,23 @@ var colorpalette={
       "alpha": 0.47058824
     },
     {
+      "name": "Zinc Block",
+      "uid": "Magneticraft:block_zinc",
+      "meta": 0,
+      "color": "#94825c"
+    },
+    {
       "name": "Zinc Green",
       "uid": "minechem:fluid.molecule.greenPigment.name",
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "Zinc Ore",
+      "uid": "Magneticraft:zinc_ore",
+      "meta": 0,
+      "color": "#7d7c77"
     },
     {
       "name": "Zirconium",
@@ -17593,6 +18248,12 @@ var colorpalette={
       "meta": 0,
       "color": "#a5a5a5",
       "alpha": 0.47058824
+    },
+    {
+      "name": "gravestone",
+      "uid": "gravestone:gravestone",
+      "meta": 0,
+      "color": "#866043"
     },
     {
       "name": "ic2.blockDynamite",
