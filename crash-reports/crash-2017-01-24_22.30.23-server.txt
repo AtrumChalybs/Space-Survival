@@ -1,0 +1,90 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 1/24/17 10:30 PM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at net.minecraft.world.gen.structure.MapGenStructure.func_75051_a(MapGenStructure.java:89)
+	at net.minecraft.world.gen.ChunkProviderFlat.func_73153_a(SourceFile:132)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1055)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:265)
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:78)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:92)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_25, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 850560984 bytes (811 MB) / 1960476672 bytes (1869 MB) up to 4281597952 bytes (4083 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 41 mods loaded, 41 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAA	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAA	appliedenergistics2-core{rv2-stable-10} [AppliedEnergistics2 Core] (minecraft.jar) 
+	UCHIJAA	Micdoodlecore{} [Micdoodle8 Core] (minecraft.jar) 
+	UCHIJAA	OpenComputers|Core{1.6.1.11} [OpenComputers (Core)] (minecraft.jar) 
+	UCHIJAA	OpenModsCore{0.9.1} [OpenModsCore] (minecraft.jar) 
+	UCHIJAA	<DragonAPI ASM>{0} [DragonAPI ASM Data Initialization] (minecraft.jar) 
+	UCHIJAA	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.827-experimental.jar) 
+	UCHIJAA	advancedgenetics{1.5.9} [Advanced Genetics] (advancedgenetics-1.7.10-1.5.9.jar) 
+	UCHIJAA	appliedenergistics2{rv2-stable-10} [Applied Energistics 2] (appliedenergistics2-rv2-stable-10.jar) 
+	UCHIJAA	asielib{0.4.6} [asielib] (AsieLib-1.7.10-0.4.6.jar) 
+	UCHIJAA	Waila{1.5.10} [Waila] (Waila-1.5.10_1.7.10.jar) 
+	UCHIJAA	minechem{5.0.5.406} [Minechem] (Minechem-1.7.10-5.0.5.406.jar) 
+	UCHIJAA	DragonAPI{1.0} [DragonAPI] (DragonAPI 1.7.10 V16d.jar) 
+	UCHIJAA	ChromatiCraft{1.0} [ChromatiCraft] (ChromatiCraft 1.7.10 V16d.jar) 
+	UCHIJAA	ForgeMultipart{1.1.2.331} [Forge Multipart] (ForgeMultipart-1.7.10-1.1.2.331-universal.jar) 
+	UCHIJAA	OpenComputers{1.6.1.11} [OpenComputers] (OpenComputers-MC1.7.10-1.6.1.11-universal.jar) 
+	UCHIJAA	GalacticraftCore{3.0.12} [Galacticraft Core] (GalacticraftCore-1.7-3.0.12.375.jar) 
+	UCHIJAA	Mekanism{9.1.0} [Mekanism] (Mekanism-1.7.10-9.1.0.281.jar) 
+	UCHIJAA	computronics{1.6.1} [Computronics] (Computronics-1.7.10-1.6.1.jar) 
+	UCHIJAA	ElecCore{1.4.294} [ElecCore] (ElecCore-1.7.10-1.4.294.jar) 
+	UCHIJAA	deepresonance{1.1.4} [DeepResonance] (deepresonance-1.1.4.jar) 
+	UCHIJAA	RotaryCraft{1.0} [RotaryCraft] (RotaryCraft 1.7.10 V16d.jar) 
+	UCHIJAA	ElectriCraft{1.0} [ElectriCraft] (ElectriCraft 1.7.10 V16d.jar) 
+	UCHIJAA	GalacticraftMars{3.0.12} [Galacticraft Planets] (Galacticraft-Planets-1.7-3.0.12.375.jar) 
+	UCHIJAA	JABBA{1.2.2} [JABBA] (Jabba-1.2.2_1.7.10.jar) 
+	UCHIJAA	mo{0.4.0-RC4} [Matter Overdrive] (MatterOverdrive-1.7.10-0.4.0.jar) 
+	UCHIJAA	MekanismGenerators{9.1.0} [MekanismGenerators] (MekanismGenerators-1.7.10-9.1.0.281.jar) 
+	UCHIJAA	MekanismTools{9.1.0} [MekanismTools] (MekanismTools-1.7.10-9.1.0.281.jar) 
+	UCHIJAA	OpenMods{0.9.1} [OpenMods] (OpenModsLib-1.7.10-0.9.1.jar) 
+	UCHIJAA	OpenBlocks{1.5.1} [OpenBlocks] (OpenBlocks-1.7.10-1.5.1.jar) 
+	UCHIJAA	OpenPeripheralCore{1.3} [OpenPeripheralCore] (OpenPeripheral-1.7.10-AIO-7.jar) 
+	UCHIJAA	OpenPeripheral{0.5.1} [OpenPeripheralAddons] (OpenPeripheral-1.7.10-AIO-7.jar) 
+	UCHIJAA	OpenPeripheralIntegration{0.5} [OpenPeripheralIntegration] (OpenPeripheral-1.7.10-AIO-7.jar) 
+	UCHIJAA	openprinter{0.1.0.132} [OpenPrinter] (OpenPrinter-MC1.7.10-0.1.0.132.jar) 
+	UCHIJAA	opensecurity{1.0.97} [OpenSecurity] (OpenSecurity-1.7.10-1.0-97.jar) 
+	UCHIJAA	ReactorCraft{1.0} [ReactorCraft] (ReactorCraft 1.7.10 V16d.jar) 
+	UCHIJAA	StorageDrawers{1.7.10-1.10.8} [Storage Drawers] (StorageDrawers-1.7.10-1.10.8.jar) 
+	UCHIJAA	McMultipart{1.1.2.331} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.1.2.331-universal.jar) 
+	UCHIJAA	ForgeMicroblock{1.1.2.331} [Forge Microblocks] (ForgeMultipart-1.7.10-1.1.2.331-universal.jar) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	OpenModsLib class transformers: [stencil_patches:FINISHED],[movement_callback:FINISHED],[map_gen_fix:FINISHED],[gl_capabilities_hook:FINISHED],[player_render_hook:FINISHED]
+	Class transformer null safety: all safe
+	AE2 Version: stable rv2-stable-10 for Forge 10.13.2.1291
+	Stencil buffer state: Function set: GL30, pool: internal, bits: 8
+	AE2 Integration: IC2:ON, RotaryCraft:ON, RC:OFF, BC:OFF, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:ON, RB:OFF, CLApi:OFF, Waila:ON, InvTweaks:OFF, NEI:OFF, CraftGuide:OFF, Mekanism:ON, ImmibisMicroblocks:OFF, BetterStorage:OFF
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
